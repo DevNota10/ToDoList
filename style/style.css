@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background-image: url(../img/background.png);
+    background-image: url(../img/road-1072821_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,7 @@ body{
     width: 500px;
     max-height: 100%;
     border-radius: 10px;
-    background: #d1d1d189;
+    background: linear-gradient(-45deg,#ff000077,#ffa6007e,#00800096);
     padding: 20px ;
  
 }
