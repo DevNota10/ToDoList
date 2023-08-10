@@ -3,14 +3,14 @@
     const inputTask = document.querySelector(".input-task");
     const listTasks = document.querySelector(".list-tasks");
 
+    // inputTask.addEventListener('')
+
     myList = [];
 
     function addNewTask(){
         myList.push({
            task: inputTask.value,
            completed: false,
-
-
         });
         inputTask.value = '';
 
@@ -59,4 +59,12 @@
 
     reloadTasks();
     btnTask.addEventListener("click", addNewTask);
+
+    setInterval(()=>{
+        const addanimeBtnPort = document.querySelector("#box-btn-port");
+       addanimeBtnPort.classList.toggle('activeAnimation')
+
+    },6000)
+     
+
 
